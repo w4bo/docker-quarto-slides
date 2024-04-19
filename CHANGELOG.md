@@ -1,3 +1,10 @@
+## 1.0.0 (2024-04-19)
+
+
+### Bug Fixes
+
+* **quarto:** create the image ([f39ecbe](https://github.com/w4bo/docker-quarto/commit/f39ecbec383873171eb63aaa4ab4bfa709998e6e))
+
 ## 1.0.0 (2024-04-05)
 
 
