@@ -1,17 +1,13 @@
 version: "3.9"
 services:
-  oracledb:
+  build-quarto:
     init: true
-    restart: always
-    hostname: oracledb
-    container_name: oracledb
+    # restart: always
     build:
       context: .
       dockerfile: Dockerfile
-    ports:
-      - "1521:1521"
-    env_file:
-      - .env
+    hostname: build-quarto
+    container_name: build-quarto
     volumes:
-      - ./oracle11g/:/docker-entrypoint-initdb.d/
-      - ./data/:/data/
+      - ./:/data
+    command: ["/bin/bash", "/data/build.sh"]

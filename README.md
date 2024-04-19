@@ -1,4 +1,4 @@
-# Oracle 11g with Java
+# Generating slides with Quarto
 
 ## Set up
 
