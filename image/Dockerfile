@@ -1,4 +1,4 @@
-FROM eddelbuettel/r2u:20.04
+FROM eddelbuettel/r2u:22.04
 RUN apt-get update 
 RUN apt-get install -y --no-install-recommends pandoc pandoc-citeproc curl gdebi-core 
 RUN rm -rf /var/lib/apt/lists/*
