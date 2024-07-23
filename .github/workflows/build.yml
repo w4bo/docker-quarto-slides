@@ -37,7 +37,7 @@ jobs:
         run: echo "version=$(git describe --tags --abbrev=0)" >> $GITHUB_OUTPUT
       - name: Extract metadata (tags, labels)
         id: meta1
-        uses: docker/metadata-action@a64d0487d7069df33b279515d35d60fa80e2ea62
+        uses: docker/metadata-action@60a0d343a0d8a18aedee9d34e62251f752153bdb
         with:
           images: ${{ secrets.DOCKER_USERNAME }}/${{ secrets.DOCKER_IMAGENAME }}
           tags: |
