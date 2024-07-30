@@ -1,7 +1,7 @@
 const publishCmd = `
 git tag -a -f \${nextRelease.version} \${nextRelease.version} -F CHANGELOG.md
 git push --force origin \${nextRelease.version}
-input=$(git remote get-url origin)
+input=\$(git remote get-url origin)
 repo_info=\${input#*:}
 username=\${repo_info%%/*}
 repository=\${repo_info#*/}
