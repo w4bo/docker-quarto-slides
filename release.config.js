@@ -1,8 +1,8 @@
 const publishCmd = `
 git tag -a -f \${nextRelease.version} \${nextRelease.version} -F CHANGELOG.md
 git push --force origin \${nextRelease.version}
-docker tag ${secrets.DOCKER_USERNAME}/${secrets.DOCKER_IMAGENAME}:\${nextRelease.version} ${secrets.DOCKER_USERNAME}/${secrets.DOCKER_IMAGENAME}:latest
-docker push ${secrets.DOCKER_USERNAME}/${secrets.DOCKER_IMAGENAME}
+docker tag w4bo/docker-quarto:\${nextRelease.version} w4bo/docker-quarto:latest
+docker push w4bo/docker-quarto
 `;
 const config = require('semantic-release-preconfigured-conventional-commits');
 config.plugins.push(
