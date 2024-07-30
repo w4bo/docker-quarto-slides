@@ -3,13 +3,13 @@ git tag -a -f \${nextRelease.version} \${nextRelease.version} -F CHANGELOG.md
 git push --force origin \${nextRelease.version}
 input=$(git remote get-url origin)
 # Extract the part after the colon
-repo_info="\${input#*:}"
+repo_info=\${input#*:}
 # Extract the username
-username="\${repo_info%%/*}"
+username=\${repo_info%%/*}
 # Extract the repository
-repository="\${repo_info#*/}"
-repository="\${repository%.git}"
-repository="\${repository#docker-}"
+repository=\${repo_info#*/}
+repository=\${repository%.git}
+repository=\${repository#docker-}
 docker tag \${username}/\${repository}:\${nextRelease.version} \${username}/\${repository}:latest
 docker push \${username}/\${repository}:\${nextRelease.version}
 `;
