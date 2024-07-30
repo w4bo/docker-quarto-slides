@@ -11,7 +11,7 @@ repository="\${repo_info#*/}"
 repository="\${repository%.git}"
 repository="\${repository#docker-}"
 docker tag \${username}/\${repository}:\${nextRelease.version} \${username}/\${repository}:latest
-docker push \${username}/\${repository}
+docker push \${username}/\${repository}:\${nextRelease.version}
 `;
 const config = require('semantic-release-preconfigured-conventional-commits');
 config.plugins.push(
