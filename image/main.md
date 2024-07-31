@@ -6,7 +6,7 @@ date: 2023-12-04
 format:
   revealjs: 
     footer: "My footnote"
-bibliography: prova.bib
+bibliography: refs.bib
 ---
 
 # Main slide

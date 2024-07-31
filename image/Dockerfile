@@ -7,4 +7,5 @@ RUN curl -LO https://github.com/quarto-dev/quarto-cli/releases/download/v1.4.549
 RUN gdebi --non-interactive quarto-1.4.549-linux-amd64.deb
 COPY requirements.txt .
 RUN pip install -r requirements.txt
+RUN quarto install tinytex
 WORKDIR /data
