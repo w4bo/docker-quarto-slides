@@ -4,8 +4,7 @@ version=$1
 username=$2
 repository=$3
 cd image
-versions=()
-for v in "${version}" "latest"
+for v in "${version}" # "latest"
 do
     echo $v
     docker build -t ${repository}:${v} --progress=plain . &> build.log
