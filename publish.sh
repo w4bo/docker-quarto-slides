@@ -10,6 +10,6 @@ git push --force origin ${version}
 # repository=${repository%.git}
 # repository=${repository#docker-}
 cd image
-docker build -t ${username}/${repository} . > /dev/null
+docker build -t ${username}/${repository} . --progress=plain  . &> build.log
 docker tag ${username}/${repository}:${version} ${username}/${repository}:latest
 docker push ${username}/${repository}:${version}
