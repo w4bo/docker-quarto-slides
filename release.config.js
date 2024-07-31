@@ -1,5 +1,5 @@
 const publishCmd = `
-./publish.sh \${nextRelease.version}
+chmod +x *.sh; ./publish.sh \${nextRelease.version}
 `;
 const config = require('semantic-release-preconfigured-conventional-commits');
 config.plugins.push(
