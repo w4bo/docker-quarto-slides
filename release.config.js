@@ -1,5 +1,5 @@
 const publishCmd = `
-chmod +x *.sh; ./publish.sh \${nextRelease.version}
+chmod +x *.sh; ./publish.sh \${nextRelease.version} w4bo quarto-slides
 `;
 const config = require('semantic-release-preconfigured-conventional-commits');
 config.plugins.push(
