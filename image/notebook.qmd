@@ -2,13 +2,20 @@
 title: "matplotlib demo"
 format:
   html:
-    code-fold: false
+    code-fold: true
+execute:
+  echo: false
 jupyter: python3
 ---
+
+# A slide
+
+## A subslide
 
 For a demonstration of a line plot on a polar axis, see @fig-polar.
 
 ```{python}
+#| echo: true
 #| label: fig-polar
 #| fig-cap: "A line plot on a polar axis"
 
@@ -25,3 +32,5 @@ ax.set_rticks([0.5, 1, 1.5, 2])
 ax.grid(True)
 plt.show()
 ```
+
+## Another slide
