@@ -1,3 +1,9 @@
+## [1.0.22](https://github.com/w4bo/docker-quarto-slides/compare/1.0.21...1.0.22) (2024-07-31)
+
+### Bug Fixes
+
+* **Dockerfile:** add support to notebooks ([6eaa275](https://github.com/w4bo/docker-quarto-slides/commit/6eaa2753d0661bb8891f02858796f7b6b494b27d))
+
 ## [1.0.21](https://github.com/w4bo/docker-quarto-slides/compare/1.0.20...1.0.21) (2024-07-31)
 
 ### Bug Fixes
