@@ -7,6 +7,8 @@ services:
       context: .
       dockerfile: Dockerfile
     hostname: build-quarto
+    ports:
+      - "6778:6778"
     container_name: build-quarto
     volumes:
       - ./:/data
