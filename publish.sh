@@ -9,5 +9,6 @@ git push --force origin ${version}
 # repository=$(basename -s .git $(git config --get remote.origin.url))
 # repository=${repository%.git}
 # repository=${repository#docker-}
+docker build -t ${username}/${repository} .
 docker tag ${username}/${repository}:${version} ${username}/${repository}:latest
 docker push ${username}/${repository}:${version}
