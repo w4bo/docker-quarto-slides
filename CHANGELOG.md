@@ -1,3 +1,9 @@
+## [1.0.7](https://github.com/w4bo/docker-quarto-slides/compare/1.0.6...1.0.7) (2024-07-31)
+
+### Bug Fixes
+
+* **ci:** update the release ([5b75c8e](https://github.com/w4bo/docker-quarto-slides/commit/5b75c8e0f60778d38e51cc5c233758bbfb824f03))
+
 ## [1.0.6](https://github.com/w4bo/docker-quarto-slides/compare/1.0.5...1.0.6) (2024-07-31)
 
 ### Bug Fixes
