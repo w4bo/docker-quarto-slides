@@ -1,3 +1,9 @@
+## [1.0.23](https://github.com/w4bo/docker-quarto-slides/compare/1.0.22...1.0.23) (2024-07-31)
+
+### Bug Fixes
+
+* **Dockerfile:** expose port for preview ([fa04eec](https://github.com/w4bo/docker-quarto-slides/commit/fa04eec069cd62ad7f1fb39cf5cd8704a7ca288a))
+
 ## [1.0.22](https://github.com/w4bo/docker-quarto-slides/compare/1.0.21...1.0.22) (2024-07-31)
 
 ### Bug Fixes
