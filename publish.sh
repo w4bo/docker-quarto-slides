@@ -10,9 +10,10 @@ repository=$3
 # repository=${repository%.git}
 # repository=${repository#docker-}
 cd image
+versions=("${version}" "latest")
+for version in "${versions[@]}"; do
 docker build -t ${repository}:${version} --progress=plain . &> build.log
-docker build -t ${repository}:latest --progress=plain . &> build.log
 docker tag ${repository} ${username}/${repository}:${version}
-docker tag ${repository} ${username}/${repository}:latest
 docker push ${username}/${repository}:${version}
+done
 cd -
