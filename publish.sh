@@ -8,7 +8,7 @@ for v in "${version}" # "latest"
 do
     echo $v
     docker build -t ${repository}:${v} --progress=plain . &> build.log
-    docker tag ${repository} ${username}/${repository}:${v}
+    docker tag ${repository}:${v} ${username}/${repository}:${v}
     docker push ${username}/${repository}:${v}
 done
 cd -
