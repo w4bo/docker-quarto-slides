@@ -1,4 +1,5 @@
-scikit-learn==1.6.1
-pandas==2.2.3
+jupyter==1.1.1
 matplotlib==3.10.0
-jupyter
+pandas==2.2.3
+scikit-learn==1.6.1
+seaborn==0.13.2

@@ -8,11 +8,11 @@ project:
     watch-inputs: true
 
 format:
-  revealjs: 
+  revealjs:
     theme: [white, slides.scss]
     slide-number: true
     html-math-method:
-      method: mathjax   
+      method: mathjax  
     default-image-extension: ""
     controls-layout: bottom-right
     controls-tutorial: true
