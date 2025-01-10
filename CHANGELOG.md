@@ -1,3 +1,65 @@
+## [1.0.24](https://github.com/w4bo/docker-quarto-slides/compare/1.0.23...1.0.24) (2025-01-10)
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.10.0 ([#95](https://github.com/w4bo/docker-quarto-slides/issues/95)) ([502528d](https://github.com/w4bo/docker-quarto-slides/commit/502528d27d5f492dd52fb73a69f0c15c4fd04b76))
+* **deps:** update dependency matplotlib to v3.9.1.post1 ([8867a0b](https://github.com/w4bo/docker-quarto-slides/commit/8867a0b711f3731c949373511474396c57bcd9b0))
+* **deps:** update dependency matplotlib to v3.9.2 ([b1bd826](https://github.com/w4bo/docker-quarto-slides/commit/b1bd826266e543720b240a7b12b2ffbf0935145b))
+* **deps:** update dependency matplotlib to v3.9.3 ([#90](https://github.com/w4bo/docker-quarto-slides/issues/90)) ([716b4ad](https://github.com/w4bo/docker-quarto-slides/commit/716b4ade323b10d5110f9efdcc1e306c8d652b77))
+* **deps:** update dependency matplotlib to v3.9.4 ([#94](https://github.com/w4bo/docker-quarto-slides/issues/94)) ([34ce367](https://github.com/w4bo/docker-quarto-slides/commit/34ce3675015d43bf5a004ce18ab785bbf27264da))
+* **deps:** update dependency pandas to v2.2.3 ([2f50312](https://github.com/w4bo/docker-quarto-slides/commit/2f50312c294f505df48b01bd850332328a4d5e9b))
+* **deps:** update dependency scikit-learn to v1.5.2 ([6af194b](https://github.com/w4bo/docker-quarto-slides/commit/6af194be03d4438543775ff1d2322f754e89d349))
+* **deps:** update dependency scikit-learn to v1.6.0 ([#93](https://github.com/w4bo/docker-quarto-slides/issues/93)) ([0590b4f](https://github.com/w4bo/docker-quarto-slides/commit/0590b4f035e3f7664c8ccccb3daaede3005c2e84))
+* **deps:** update dependency scikit-learn to v1.6.1 ([#101](https://github.com/w4bo/docker-quarto-slides/issues/101)) ([9a0fd19](https://github.com/w4bo/docker-quarto-slides/commit/9a0fd19454f7be8da8d98b527b09f6dc4685e605))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.101 ([e1073e9](https://github.com/w4bo/docker-quarto-slides/commit/e1073e968c85cec0fd9d90db58665a594cfe510a))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.102 ([f2c705b](https://github.com/w4bo/docker-quarto-slides/commit/f2c705ba85e82a07a661e25347fce460ce341932))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.103 ([a26a87d](https://github.com/w4bo/docker-quarto-slides/commit/a26a87d158011bf0bcddfddfb218ab6d41f11c56))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.104 ([e2f3761](https://github.com/w4bo/docker-quarto-slides/commit/e2f3761e35032a0dbecd7ffa90c726d7730a1361))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.105 ([74d3092](https://github.com/w4bo/docker-quarto-slides/commit/74d3092ae24a32ed30f57c51f94f1ab8a8acbe4e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.106 ([27c9ea2](https://github.com/w4bo/docker-quarto-slides/commit/27c9ea28a697c347d49e83d5214c78cb01bf99c8))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.107 ([a0cd5c4](https://github.com/w4bo/docker-quarto-slides/commit/a0cd5c496b5e48e9fd647f7beedeb6f06447fc47))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.108 ([a1f0592](https://github.com/w4bo/docker-quarto-slides/commit/a1f059248b43f3988a98df18d3545331057ebb2f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.109 ([74968bc](https://github.com/w4bo/docker-quarto-slides/commit/74968bcf5e27ffb47a242e0346820b37e83f26df))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.110 ([6ad5ff3](https://github.com/w4bo/docker-quarto-slides/commit/6ad5ff3b27c8d68e59274d2dabec66a435f540b2))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.111 ([334a17a](https://github.com/w4bo/docker-quarto-slides/commit/334a17afdd557a9e1550dea3852c86a8782ad072))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.112 ([b489d7b](https://github.com/w4bo/docker-quarto-slides/commit/b489d7b92a592dc7ba08f92fa6852354baf59a3e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.113 ([e6b6697](https://github.com/w4bo/docker-quarto-slides/commit/e6b66971e9f1ae38d24e4e5052d4fa0a2edd64dc))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.114 ([54d0627](https://github.com/w4bo/docker-quarto-slides/commit/54d06276daf77831968dd43e070afbe148d651e6))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.115 ([#89](https://github.com/w4bo/docker-quarto-slides/issues/89)) ([aff95a8](https://github.com/w4bo/docker-quarto-slides/commit/aff95a88b37f67371e2c82a45b2e2fb706c3e7f5))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.116 ([#92](https://github.com/w4bo/docker-quarto-slides/issues/92)) ([22068a0](https://github.com/w4bo/docker-quarto-slides/commit/22068a04c1e5db8f76f8a118852b4fe393353414))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.117 ([#96](https://github.com/w4bo/docker-quarto-slides/issues/96)) ([090712d](https://github.com/w4bo/docker-quarto-slides/commit/090712d7caeb04a5d817c4df7ed1a6f4cf1711ec))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.118 ([#97](https://github.com/w4bo/docker-quarto-slides/issues/97)) ([24fcaba](https://github.com/w4bo/docker-quarto-slides/commit/24fcaba9eac122a03f19f4f550a77a200e328325))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.119 ([#100](https://github.com/w4bo/docker-quarto-slides/issues/100)) ([0388fb9](https://github.com/w4bo/docker-quarto-slides/commit/0388fb9eb0498a48b3fbe55fead3e0ed9c3b32ad))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.96 ([614aa77](https://github.com/w4bo/docker-quarto-slides/commit/614aa7740a7010f3cbe623d052d90c026cba176b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.97 ([c852064](https://github.com/w4bo/docker-quarto-slides/commit/c852064a91983a9b9d06b15c717f21fc82b2f80c))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.98 ([79959ca](https://github.com/w4bo/docker-quarto-slides/commit/79959ca783b48ced9dfcca7919d18dbdb7526151))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.99 ([c7d79db](https://github.com/w4bo/docker-quarto-slides/commit/c7d79dbc0ec25c618df4ebc28174f833c18acdae))
+* **deps:** update node.js to 20.17 ([f14d5b9](https://github.com/w4bo/docker-quarto-slides/commit/f14d5b914e865cb3a583fe1aaae43d297d1f725a))
+* **deps:** update node.js to 20.18 ([70e5e33](https://github.com/w4bo/docker-quarto-slides/commit/70e5e3325f77b4fc628bf076219dbe2f037d4b10))
+* **deps:** update node.js to 22.12 ([#91](https://github.com/w4bo/docker-quarto-slides/issues/91)) ([59b21c5](https://github.com/w4bo/docker-quarto-slides/commit/59b21c56d6be2369bc314987dd44d05182e172ad))
+* **deps:** update node.js to 22.13 ([#98](https://github.com/w4bo/docker-quarto-slides/issues/98)) ([806a2a7](https://github.com/w4bo/docker-quarto-slides/commit/806a2a79caabb4f29d16d71174f4523dec041550))
+* **deps:** update node.js to v22 ([ff153c8](https://github.com/w4bo/docker-quarto-slides/commit/ff153c8eb0a99b4e9ac3b8dc88fab90defba674c))
+
+### Bug Fixes
+
+* update quarto version ([#102](https://github.com/w4bo/docker-quarto-slides/issues/102)) ([96173c2](https://github.com/w4bo/docker-quarto-slides/commit/96173c23d17018f35e9fbf92833be3b39fc4a883))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.2.0 ([e5728a1](https://github.com/w4bo/docker-quarto-slides/commit/e5728a1fde8563e59a0a2b46b50ae901c5861213))
+* **deps:** update actions/checkout action to v4.2.1 ([beb5b16](https://github.com/w4bo/docker-quarto-slides/commit/beb5b160f178cdd02d425717dd307ca0a3472e30))
+* **deps:** update actions/checkout action to v4.2.2 ([b100166](https://github.com/w4bo/docker-quarto-slides/commit/b100166f471882d2130d9095e065ed4b94270af5))
+* **deps:** update actions/setup-node action to v4.0.4 ([0f6c646](https://github.com/w4bo/docker-quarto-slides/commit/0f6c6468c82aaac306bcf1fcf0fe8de126032159))
+* **deps:** update actions/setup-node action to v4.1.0 ([0c1ba56](https://github.com/w4bo/docker-quarto-slides/commit/0c1ba567eea84c0a7ed1968d31ed850f9325a49f))
+* **deps:** update dependency ubuntu to v24 ([92d2d70](https://github.com/w4bo/docker-quarto-slides/commit/92d2d705ff99359c9ab4219cc4ec9141fbc9b1d6))
+* **deps:** update docker/login-action digest to 0689575 ([4300874](https://github.com/w4bo/docker-quarto-slides/commit/43008749f07607dad3936229c829664da02db8c1))
+* **deps:** update docker/login-action digest to 1f36f5b ([604eb3f](https://github.com/w4bo/docker-quarto-slides/commit/604eb3f2d246adaffd0aac648c64b7afe91257e7))
+* **deps:** update docker/login-action digest to 29df2a9 ([29ccea6](https://github.com/w4bo/docker-quarto-slides/commit/29ccea6482c67391027df49172d28baa8b8a43ad))
+* **deps:** update docker/login-action digest to 327cd5a ([#99](https://github.com/w4bo/docker-quarto-slides/issues/99)) ([91955d0](https://github.com/w4bo/docker-quarto-slides/commit/91955d04250b0fbd8e0c96ba5f1e6bffd0a1f97a))
+* **deps:** update docker/login-action digest to 3b8fed7 ([83e9d0b](https://github.com/w4bo/docker-quarto-slides/commit/83e9d0b34f56f0b6cb79057208dc288f107febdb))
+* **deps:** update docker/login-action digest to 5d8785b ([552612a](https://github.com/w4bo/docker-quarto-slides/commit/552612aeaa2cbadb8c3258086c25f242fdae278a))
+* **deps:** update docker/login-action digest to 7ca3450 ([d56aa53](https://github.com/w4bo/docker-quarto-slides/commit/d56aa53fe4c8e1743dbf3890c77fa3b73f2a4e90))
+
 ## [1.0.23](https://github.com/w4bo/docker-quarto-slides/compare/1.0.22...1.0.23) (2024-07-31)
 
 ### Bug Fixes
