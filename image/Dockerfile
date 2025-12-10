@@ -4,7 +4,5 @@ RUN apt-get install -y --no-install-recommends pandoc curl gdebi-core python3 py
 ARG VERSION=1.9.12
 RUN curl -L https://github.com/quarto-dev/quarto-cli/releases/download/v$VERSION/quarto-$VERSION-linux-amd64.deb -o quarto.deb
 RUN gdebi --non-interactive quarto.deb
-COPY requirements.txt .
-RUN pip3 install -r requirements.txt --break-system-packages
 RUN quarto install tinytex
 WORKDIR /data

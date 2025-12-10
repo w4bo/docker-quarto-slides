@@ -1,0 +1,6 @@
+[submodule "slides-markdown"]
+	path = slides-markdown
+	url = git@github.com:w4bo/slides-markdown.git
+[submodule "image/slides-markdown"]
+	path = image/slides-markdown
+	url = git@github.com:w4bo/slides-markdown.git
