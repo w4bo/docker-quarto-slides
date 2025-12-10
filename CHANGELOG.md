@@ -1,3 +1,9 @@
+## [1.0.26](https://github.com/w4bo/docker-quarto-slides/compare/1.0.25...1.0.26) (2025-12-10)
+
+### Bug Fixes
+
+* build the repository slides-markdown ([#178](https://github.com/w4bo/docker-quarto-slides/issues/178)) ([cf9a1f9](https://github.com/w4bo/docker-quarto-slides/commit/cf9a1f9a754b5c736f65a80a70b0221881e03f42))
+
 ## [1.0.25](https://github.com/w4bo/docker-quarto-slides/compare/1.0.24...1.0.25) (2025-12-10)
 
 ### Dependency updates
