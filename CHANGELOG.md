@@ -1,3 +1,13 @@
+## [1.0.27](https://github.com/w4bo/docker-quarto-slides/compare/1.0.26...1.0.27) (2025-12-10)
+
+### Dependency updates
+
+* **deps:** update image/slides-markdown digest to 8037a63 ([#179](https://github.com/w4bo/docker-quarto-slides/issues/179)) ([afa65de](https://github.com/w4bo/docker-quarto-slides/commit/afa65de014440ffa0a83483db5d6d9a09a3fc174))
+
+### Bug Fixes
+
+* merging feat build ([49fbe5d](https://github.com/w4bo/docker-quarto-slides/commit/49fbe5d6a412cfa380b9dfcdd185242955bcfe9a))
+
 ## [1.0.26](https://github.com/w4bo/docker-quarto-slides/compare/1.0.25...1.0.26) (2025-12-10)
 
 ### Bug Fixes
