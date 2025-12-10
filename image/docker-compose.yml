@@ -10,4 +10,4 @@ services:
     container_name: build-quarto
     volumes:
       - ./slides-markdown/slides/:/data
-    command: ["/bin/bash", "/data/publish.sh.example"]
+    command: bash -c "bash utils/init.sh && chmod +x /data/publish.sh && /data/publish.sh"
