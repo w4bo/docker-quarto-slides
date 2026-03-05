@@ -1,3 +1,40 @@
+## [1.0.28](https://github.com/w4bo/docker-quarto-slides/compare/1.0.27...1.0.28) (2026-03-05)
+
+### Dependency updates
+
+* **deps:** update image/slides-markdown digest to 2235f85 ([#205](https://github.com/w4bo/docker-quarto-slides/issues/205)) ([846361f](https://github.com/w4bo/docker-quarto-slides/commit/846361f4d36e60c95640d7b64279b27a233308c8))
+* **deps:** update image/slides-markdown digest to 6a7e63c ([#184](https://github.com/w4bo/docker-quarto-slides/issues/184)) ([e47157e](https://github.com/w4bo/docker-quarto-slides/commit/e47157e1499e24b020ed02d20741f13f2f2bca43))
+* **deps:** update image/slides-markdown digest to 6dbed74 ([#202](https://github.com/w4bo/docker-quarto-slides/issues/202)) ([33cef70](https://github.com/w4bo/docker-quarto-slides/commit/33cef70eff37545a7bef582dc307cb636953ffef))
+* **deps:** update image/slides-markdown digest to 8517861 ([#186](https://github.com/w4bo/docker-quarto-slides/issues/186)) ([f13f502](https://github.com/w4bo/docker-quarto-slides/commit/f13f502c50ddec2570dbe43c594e32b0e7b90f73))
+* **deps:** update image/slides-markdown digest to b55d983 ([#187](https://github.com/w4bo/docker-quarto-slides/issues/187)) ([62e0520](https://github.com/w4bo/docker-quarto-slides/commit/62e0520bc04f2923a371bd17f3cd6fc7fe6e9399))
+* **deps:** update image/slides-markdown digest to b5bc500 ([#191](https://github.com/w4bo/docker-quarto-slides/issues/191)) ([ad4511e](https://github.com/w4bo/docker-quarto-slides/commit/ad4511ecb25a84e5f4f3f41a5a3305a011e63c05))
+* **deps:** update image/slides-markdown digest to cfaa367 ([#183](https://github.com/w4bo/docker-quarto-slides/issues/183)) ([ae542bd](https://github.com/w4bo/docker-quarto-slides/commit/ae542bdc0729fadbfec028d88b79452dc5ec6497))
+* **deps:** update image/slides-markdown digest to d6332e7 ([#201](https://github.com/w4bo/docker-quarto-slides/issues/201)) ([c22294e](https://github.com/w4bo/docker-quarto-slides/commit/c22294edd58c4fb7df8f446261bafb90c770834e))
+* **deps:** update image/slides-markdown digest to e04d28f ([#185](https://github.com/w4bo/docker-quarto-slides/issues/185)) ([8041c45](https://github.com/w4bo/docker-quarto-slides/commit/8041c45aaeb176bf3c7d9c8b712188d737d42be3))
+* **deps:** update image/slides-markdown digest to e342970 ([#189](https://github.com/w4bo/docker-quarto-slides/issues/189)) ([6892c80](https://github.com/w4bo/docker-quarto-slides/commit/6892c80055f3f0ae09c8cb4d6e46d9dc18dc728f))
+* **deps:** update image/slides-markdown digest to eb264d6 ([#182](https://github.com/w4bo/docker-quarto-slides/issues/182)) ([c14de9a](https://github.com/w4bo/docker-quarto-slides/commit/c14de9a94f8ca2ed40aa46109b4dd9472d4e72a3))
+* **deps:** update image/slides-markdown digest to f44d873 ([#195](https://github.com/w4bo/docker-quarto-slides/issues/195)) ([46be5ba](https://github.com/w4bo/docker-quarto-slides/commit/46be5ba953518a4e815aec02fd756bc1183ed919))
+* **deps:** update node.js to 24.12 ([#181](https://github.com/w4bo/docker-quarto-slides/issues/181)) ([175caae](https://github.com/w4bo/docker-quarto-slides/commit/175caae01d3705d595067e9936439bba649f159f))
+* **deps:** update node.js to 24.13 ([#192](https://github.com/w4bo/docker-quarto-slides/issues/192)) ([8a214a1](https://github.com/w4bo/docker-quarto-slides/commit/8a214a16a1df1395cbe5aea8e3278dc2918aa4f8))
+* **deps:** update node.js to 24.14 ([#200](https://github.com/w4bo/docker-quarto-slides/issues/200)) ([af6354d](https://github.com/w4bo/docker-quarto-slides/commit/af6354d47f0683da3b819a22a1eba900caf79666))
+
+### Bug Fixes
+
+* Update Quarto version to 1.9.29 in Dockerfile ([4e80d0a](https://github.com/w4bo/docker-quarto-slides/commit/4e80d0a5982e89d7a4095c3d4af0e333dc6714f0))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v6.0.2 ([#196](https://github.com/w4bo/docker-quarto-slides/issues/196)) ([cf9afdd](https://github.com/w4bo/docker-quarto-slides/commit/cf9afdd63c99fba25f9d9786e79eacb98d774b83))
+* **deps:** update actions/setup-node action to v6.2.0 ([#194](https://github.com/w4bo/docker-quarto-slides/issues/194)) ([1f22db5](https://github.com/w4bo/docker-quarto-slides/commit/1f22db5a596d79928f0989b7da357a8b99430045))
+* **deps:** update actions/setup-node action to v6.3.0 ([#204](https://github.com/w4bo/docker-quarto-slides/issues/204)) ([005044d](https://github.com/w4bo/docker-quarto-slides/commit/005044da003ce565dd79f9093abe8ba527aa5e90))
+* **deps:** update docker/login-action digest to 0567fa5 ([#193](https://github.com/w4bo/docker-quarto-slides/issues/193)) ([a1213ea](https://github.com/w4bo/docker-quarto-slides/commit/a1213ea44004d642c0a0a4a41d6f58dea4e65770))
+* **deps:** update docker/login-action digest to 2e1345c ([#198](https://github.com/w4bo/docker-quarto-slides/issues/198)) ([8d9a3b9](https://github.com/w4bo/docker-quarto-slides/commit/8d9a3b9fd3036677e8f0ae8bd572430a3243ce09))
+* **deps:** update docker/login-action digest to 3227f53 ([#199](https://github.com/w4bo/docker-quarto-slides/issues/199)) ([bbd2c62](https://github.com/w4bo/docker-quarto-slides/commit/bbd2c62631c4b998c081d4ef03b7777800c21901))
+* **deps:** update docker/login-action digest to 6862ffc ([#188](https://github.com/w4bo/docker-quarto-slides/issues/188)) ([8300a07](https://github.com/w4bo/docker-quarto-slides/commit/8300a0744c575d9e7636d8a73b624282a13853c6))
+* **deps:** update docker/login-action digest to 916386b ([#190](https://github.com/w4bo/docker-quarto-slides/issues/190)) ([110e53b](https://github.com/w4bo/docker-quarto-slides/commit/110e53b6a7362b007ee9d2fadffeab9c7ab54719))
+* **deps:** update docker/login-action digest to b45d80f ([#203](https://github.com/w4bo/docker-quarto-slides/issues/203)) ([d714785](https://github.com/w4bo/docker-quarto-slides/commit/d7147855321094c13299afee7da026b8cc0d7272))
+* **deps:** update docker/login-action digest to c94ce9f ([#197](https://github.com/w4bo/docker-quarto-slides/issues/197)) ([4284a12](https://github.com/w4bo/docker-quarto-slides/commit/4284a12be903a7cd1a4f55b4e078bb9fc8486bf4))
+
 ## [1.0.27](https://github.com/w4bo/docker-quarto-slides/compare/1.0.26...1.0.27) (2025-12-10)
 
 ### Dependency updates
