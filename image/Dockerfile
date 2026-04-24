@@ -1,4 +1,4 @@
-FROM ubuntu:24.04
+FROM ubuntu:26.04
 RUN apt-get update
 RUN apt-get install -y --no-install-recommends pandoc curl gdebi-core python3 python3-pip libfontconfig
 ARG VERSION=1.9.29
