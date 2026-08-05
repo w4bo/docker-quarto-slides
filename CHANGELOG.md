@@ -1,3 +1,14 @@
+## [1.0.30](https://github.com/w4bo/docker-quarto-slides/compare/1.0.29...1.0.30) (2026-08-05)
+
+### Dependency updates
+
+* **deps:** update image/slides-markdown digest to a29d27e ([#239](https://github.com/w4bo/docker-quarto-slides/issues/239)) ([8399cf9](https://github.com/w4bo/docker-quarto-slides/commit/8399cf905f2fde67faa4506df19b1e45b8a0bafd))
+* **deps:** update node.js to 24.19 ([#238](https://github.com/w4bo/docker-quarto-slides/issues/238)) ([fb4ee81](https://github.com/w4bo/docker-quarto-slides/commit/fb4ee81d96f85cd6d0b3a7d459b639c261817a09))
+
+### Bug Fixes
+
+* add requirements.txt ([8c74e9e](https://github.com/w4bo/docker-quarto-slides/commit/8c74e9ed3058b808a068d42fb2b251ee01fb4975))
+
 ## [1.0.29](https://github.com/w4bo/docker-quarto-slides/compare/1.0.28...1.0.29) (2026-08-03)
 
 ### Dependency updates
