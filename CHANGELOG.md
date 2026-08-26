@@ -1,3 +1,14 @@
+## [1.0.31](https://github.com/w4bo/docker-quarto-slides/compare/1.0.30...1.0.31) (2026-08-26)
+
+### Dependency updates
+
+* **deps:** update image/slides-markdown digest to 06cdac9 ([#241](https://github.com/w4bo/docker-quarto-slides/issues/241)) ([43d2c31](https://github.com/w4bo/docker-quarto-slides/commit/43d2c31d778519a042384401f09c382aeabc2601))
+* **deps:** update image/slides-markdown digest to a0c2d57 ([#240](https://github.com/w4bo/docker-quarto-slides/issues/240)) ([1730e60](https://github.com/w4bo/docker-quarto-slides/commit/1730e6002a11cd61e116cb76cb74f6ab0965a25e))
+
+### Bug Fixes
+
+* add imbalanced-learn to requirements ([a94a8ee](https://github.com/w4bo/docker-quarto-slides/commit/a94a8eef6354997d4a66e7e51cc3561faafbeecf))
+
 ## [1.0.30](https://github.com/w4bo/docker-quarto-slides/compare/1.0.29...1.0.30) (2026-08-05)
 
 ### Dependency updates
