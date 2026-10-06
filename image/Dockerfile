@@ -1,7 +1,7 @@
 FROM ubuntu:26.04
 RUN apt-get update
-RUN apt-get install -y --no-install-recommends pandoc curl gdebi-core python3 python3-pip libfontconfig
-ARG VERSION=1.10.18
+RUN apt-get install -y --no-install-recommends pandoc curl gdebi-core python3 python3-pip python3-ipykernel python3-matplotlib libfontconfig xz-utils librsvg2-bin
+ARG VERSION=1.10.19
 RUN curl -L https://github.com/quarto-dev/quarto-cli/releases/download/v$VERSION/quarto-$VERSION-linux-amd64.deb -o quarto.deb
 RUN gdebi --non-interactive quarto.deb
 RUN quarto install tinytex
