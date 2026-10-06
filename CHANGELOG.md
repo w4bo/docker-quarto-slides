@@ -1,3 +1,24 @@
+## [1.0.32](https://github.com/w4bo/docker-quarto-slides/compare/1.0.31...1.0.32) (2026-10-06)
+
+### Dependency updates
+
+* **deps:** update image/slides-markdown digest to 093f675 ([#247](https://github.com/w4bo/docker-quarto-slides/issues/247)) ([c3f73d7](https://github.com/w4bo/docker-quarto-slides/commit/c3f73d7741aa4d8bea980d7835f2245a3c32be94))
+* **deps:** update image/slides-markdown digest to 1a25069 ([#244](https://github.com/w4bo/docker-quarto-slides/issues/244)) ([b5936c1](https://github.com/w4bo/docker-quarto-slides/commit/b5936c1527d7ba53db19463bb7b0a6a3dde923c5))
+* **deps:** update image/slides-markdown digest to 51eed64 ([#246](https://github.com/w4bo/docker-quarto-slides/issues/246)) ([0c3ca58](https://github.com/w4bo/docker-quarto-slides/commit/0c3ca5882788f8361bccb09e2ea8a20aeb67c1ee))
+* **deps:** update image/slides-markdown digest to 72185e8 ([#249](https://github.com/w4bo/docker-quarto-slides/issues/249)) ([edcc960](https://github.com/w4bo/docker-quarto-slides/commit/edcc960e6c853411378701f9ba00364910b640bf))
+* **deps:** update image/slides-markdown digest to 81a0df3 ([#242](https://github.com/w4bo/docker-quarto-slides/issues/242)) ([1c58262](https://github.com/w4bo/docker-quarto-slides/commit/1c5826224287d6cd09d01c70bdae467befa6b85a))
+* **deps:** update image/slides-markdown digest to f1e2c96 ([#250](https://github.com/w4bo/docker-quarto-slides/issues/250)) ([836237a](https://github.com/w4bo/docker-quarto-slides/commit/836237af7cf512fc7c59a1377840b5bfdc2b5b50))
+* **deps:** update node.js to 24.20 ([#243](https://github.com/w4bo/docker-quarto-slides/issues/243)) ([191d0a9](https://github.com/w4bo/docker-quarto-slides/commit/191d0a9620887d626fd9619aee3e5c397d9398ef))
+* **deps:** update node.js to 24.21 ([#245](https://github.com/w4bo/docker-quarto-slides/issues/245)) ([4d5f0d7](https://github.com/w4bo/docker-quarto-slides/commit/4d5f0d78d79a1471ab1626b8e86f1bf97ff26766))
+
+### Bug Fixes
+
+* updating quarto, python, and markdown slides ([44883a0](https://github.com/w4bo/docker-quarto-slides/commit/44883a0188a8c3ea3122b6a1d3ac1b5e063d1840))
+
+### Build and continuous integration
+
+* **deps:** update dependency ubuntu to v26 ([#248](https://github.com/w4bo/docker-quarto-slides/issues/248)) ([ab9f595](https://github.com/w4bo/docker-quarto-slides/commit/ab9f595af8f687508e2d371e34deb510ae77150a))
+
 ## [1.0.31](https://github.com/w4bo/docker-quarto-slides/compare/1.0.30...1.0.31) (2026-08-26)
 
 ### Dependency updates
